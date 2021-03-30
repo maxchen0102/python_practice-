@@ -1,4 +1,3 @@
-#一些python技巧練習 題目=======下的註解
 
 
 #============
@@ -18,6 +17,5 @@ print("====")
 for index ,data in enumerate(list):
     print(index ,data)
 '''
-
 
 
