@@ -3,7 +3,7 @@
 #============
 #建立一個for loop 和enumerate loop 去show出一個字串 "hello world  "並以空白為分割
 
- '''
+''' 
 str="hello wolrd"
 list=list(str.split(' '))
 
