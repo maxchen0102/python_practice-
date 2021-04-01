@@ -43,12 +43,21 @@ print(listA)
 str="hello world "
 
 list=[]
-listB=[]
-listC=[]
+print("字串長度=",len(str))
 
-for i in range(len(str)):
+if len(str)%3==0:
+    times=int(len(str)/3)
+else:
+    times=int(len(str)/3)+1
+
+for i in range(times):
     list.append([])
-
+i=0
+count=1
 for index,data in enumerate(str):
-    list[0].append(data)
+    list[i].append(data)
+    if count%3==0:
+       i+=1
+    count+=1
+        
 print(list)
