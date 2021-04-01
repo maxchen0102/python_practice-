@@ -22,5 +22,7 @@ print(word_3[word_3.index('o'):word_3.index('t')+1:3])
 #==================== 
 
 #用index取出字元位址 然後用字串的方式直接去設定前後取出的位址 然後印出 
-# 
+#用split取出所需字串
+
+https://github.com/maxchen0102
 
