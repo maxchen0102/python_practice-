@@ -20,3 +20,12 @@ a=multiple(5,5)
 print(multiple(5,20))
 print(a)
 
+print('============')
+#lambada單獨寫 所給定的值key當作function name 
+list=[1,2,3,4]
+
+
+key=lambda list :list[2]
+print(key(list))
+
+
