@@ -323,6 +323,7 @@ for  i in range(len(list)):
 #27 串列的複製 和一班變數的copy的差別 哪個是call by referance or call by value 
 #==============================================================================  
 
+''' 
 
 import copy 
 
@@ -339,4 +340,33 @@ print("lsitb=",listb)
 print(lista==listb)
 
 
+'''
+'''  
+list =[1,2,3]
+listb=list
+listb[1]=666
+print(list)
+''' 
+a =2 
+b=a 
+b=5 
+print(a)
 
+#==============================================================================  
+# 28 用簡短for loop 產生二維串列 還有一般方式 
+#==============================================================================  
+'''
+list_head=['A','B','C','D']#設定字母開頭list 當作四種花色
+poker_set=[[x,y] for x in list_head for y in range(1,14) ] #產生52張隨機卡牌 含有4種花色之代表字母和1-13的數字
+# 一開始不要直接存成字串 省去split的麻煩 直接把字串和整數點數分開儲存 等排序好了 再合成字串使用 
+''' 
+
+''' 
+list=[ ]
+
+for i in range(row_number):
+    list.append([])
+    for j in range(col_number):
+        list[i].append(eval(input("enter factor number )))
+''' 
+#==============================================================================  

@@ -33,7 +33,7 @@ for i in range(row_number):
 # 變數是 call by value 
 
 #==============================================================================  
-# 5  list 淺複製 和deep copy 的差別  
+# 5  list  shallow copy  和deep copy 的差別  
 #==============================================================================  
 # shallow copy equal to call by referance 
 # deep copy equal to call by reference 
@@ -45,3 +45,5 @@ for i in range(row_number):
 #就是都是複製一個新的位址 
 # 且如果只list 中lsit 的值  才會使用 call by reference 
 
+
+#==============================================================================  
