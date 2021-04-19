@@ -44,6 +44,4 @@ for i in range(row_number):
 # 如果list 中沒有list 的話 無論是deepcopy 和shallow copy 都會是call by referance  
 #就是都是複製一個新的位址 
 # 且如果只list 中lsit 的值  才會使用 call by reference 
-
-
 #==============================================================================  
